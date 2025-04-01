@@ -1,0 +1,27 @@
+# Build output directories
+/bin/
+/obj/
+
+# IDE configuration files
+*.sln.ide
+*.user
+*.vs/
+
+# Runtime-generated files
+*.log
+*.lock
+*.tmp
+
+# Temporary system files
+.DS_Store
+Thumbs.db
+
+# NuGet cache files
+/obj/*.nuget.*
+
+# Static web assets
+/obj/staticwebassets/
+
+# Others (optional)
+appsettings.Development.json
+
